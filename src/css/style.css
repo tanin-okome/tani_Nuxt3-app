@@ -1,0 +1,23 @@
+:root {
+  /* 色管理用の変数 */
+  --black-color: #333;
+  --primary-color: #AE8FFF;
+}
+
+/* ---------- base ---------- */
+.body {
+  color: var(--black-color);
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.75;
+}
+
+/* ---------- layout ---------- */
+.l_header {
+  background-color: var(--primary-color);
+}
+
+/* ---------- complete ---------- */
+.complete-item-text {
+  text-decoration: line-through;
+}
